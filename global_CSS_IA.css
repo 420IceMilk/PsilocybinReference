@@ -1,0 +1,104 @@
+a {
+	text-decoration: none;
+	}
+body {
+	background-color: #141B3E;
+	background-repeat no-repeat;
+}
+h2 {
+	font-size: 7vw;
+	color: #D9E000;
+	font-style: bold;
+	text-align: center;
+	margin-top: -1vw;
+	font-style: bold;
+}
+h3 {
+	font-size: 4vw;
+	color: white;
+	font-family: Garamond, serif;
+	font-style: italic;
+	text-align: left;
+	margin-left: 3vw;
+	font-style: bold;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -3vw;
+}
+#nav_Btn {
+	margin-top: -3vw;
+	font-size: 3vw;
+	height: 8vw;
+	width: 100%;
+	display: block;
+	font-style: italic;
+	border-color: white;
+	border-radius: 30%;
+	font-weight: bold;
+	text-decoration: none;
+
+	
+}
+p {
+	color: white;
+	font-size: 3.5vw;
+	line-height: 1.8;
+	text-indent: 5%;
+	inline-size: 60%;
+	overflow: wrap;
+	margin-left: 1vw;
+}
+img {
+	display: block;
+	border-radius: 25%;
+	height: 50vw;
+	width: 35%;
+	margin-top: -1vw;
+	margin-right: 3vw;
+	float: right;
+}
+/*This is solely for when the window resultion width goes above 1000 pixels-->*/
+@media only screen and (min-width: 1000px) {
+	img {
+		display: block;
+		border-radius: 25%;
+		height: 28vw;
+		width: 25%;
+		margin-top: -4vw;
+		margin-right: 4vw;
+		float: right;
+}
+	#nav_Btn {
+		margin-top: -3vw;
+		font-size: 2vw;
+		height: 3vw;
+		width: 100%;
+		display: block;
+		font-style: italic;
+		font-weight: normal;
+		border-color: white;
+		border-radius: 30%;
+	
+}
+	h3 {
+		font-size: 2.5vw;
+		color: white;
+		font-family: Garamond, serif;
+		font-style: italic;
+		text-align: left;
+		margin-left: 3vw;
+		font-style: bold;
+}
+	p {
+		color: white;
+		font-size: 1.5vw;
+		line-height: 1.6;
+		text-indent: 5%;
+		inline-size: 65%;
+		overflow: wrap;
+		margin-left: 1vw;
+		margin-top: -1vw;
+}
+}
